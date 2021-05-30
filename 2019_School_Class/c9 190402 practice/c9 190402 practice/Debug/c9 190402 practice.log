@@ -1,0 +1,4 @@
+﻿  0402 .c
+d:\뻐꾸기c\c9 190402 practice\c9 190402 practice\0402 .c(152): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  c9 190402 practice.vcxproj -> D:\뻐꾸기c\c9 190402 practice\Debug\c9 190402 practice.exe

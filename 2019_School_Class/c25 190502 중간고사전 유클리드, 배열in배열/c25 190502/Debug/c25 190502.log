@@ -1,0 +1,6 @@
+﻿  0502.c
+d:\뻐꾸기c\c25 190502 중간고사전 유클리드, 배열in배열\c25 190502\0502.c(113): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+d:\뻐꾸기c\c25 190502 중간고사전 유클리드, 배열in배열\c25 190502\0502.c(111): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+d:\뻐꾸기c\c25 190502 중간고사전 유클리드, 배열in배열\c25 190502\0502.c(111): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  c25 190502.vcxproj -> D:\뻐꾸기c\c25 190502 중간고사전 유클리드, 배열in배열\Debug\c25 190502.exe
