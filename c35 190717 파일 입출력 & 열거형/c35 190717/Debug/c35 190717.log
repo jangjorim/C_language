@@ -1,0 +1,6 @@
+﻿  소스.c
+d:\뻐꾸기c\c35 190717\c35 190717\소스.c(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+d:\뻐꾸기c\c35 190717\c35 190717\소스.c(42): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+  c35 190717.vcxproj -> D:\뻐꾸기c\c35 190717\Debug\c35 190717.exe
