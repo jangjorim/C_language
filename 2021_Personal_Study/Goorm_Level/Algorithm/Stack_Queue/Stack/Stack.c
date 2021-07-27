@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -44,18 +45,18 @@ int main() {
 
 	//몇 번 입력을 받을 것인지
 
-	scanf(" %d ", &count);
+	scanf_s("%d ", &Data);
 
 	for (i = 0; (i + time) < count * 2; i++) {
 
-		scanf("%d ", &Data);
+		scanf_s("%d ", &Data);
 		if (Data == 1 || Data == 0) {
 
 			if (Data == 1) {
 				IntData[i] = Data;
 			}
 			else {
-				scanf("%d ", &Data);
+				scanf_s("%d ", &Data);
 				IntData[i] = Data;
 			}
 			time++;
