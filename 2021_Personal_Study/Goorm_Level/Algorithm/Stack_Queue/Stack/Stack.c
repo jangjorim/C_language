@@ -1,6 +1,6 @@
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct _stack {
 	int stack[10];
@@ -28,8 +28,10 @@ int SIsEmpty(Stack* pstack) {
 }
 
 int SPop(Stack* pstack) {
-	if (SIsEmpty(pstack))
-		return pstack->stack[pstack->bottomIndex++];
+	if (SIsEmpty(pstack)) {
+		printf("%d ", pstack->stack[pstack->bottomIndex++]);
+		pstack->topIndex -= 1;
+	}
 	else
 		printf("underflow\n");
 }
@@ -40,35 +42,30 @@ int main() {
 
 	SInit(&stack);
 
-	int count, i, Data, IntData[10], time = 0;
+	int count, i, Data, IntData[10];
 	char Input[4];
 
 	//몇 번 입력을 받을 것인지
 
-	scanf_s("%d ", &Data);
+	scanf_s("%d", &count);
 
-	for (i = 0; (i + time) < count * 2; i++) {
+	for (i = 0; i < count; i++) {
 
-		scanf_s("%d ", &Data);
-		if (Data == 1 || Data == 0) {
+		scanf_s("%d", &Data);
+		if (Data == 1)
+			IntData[i] = Data;
 
-			if (Data == 1) {
-				IntData[i] = Data;
-			}
-			else {
-				scanf_s("%d ", &Data);
-				IntData[i] = Data;
-			}
-			time++;
-			continue;
+		else if (Data == 0) {
+			scanf_s("%d", &Data);
+			IntData[i] = Data;
 		}
 		else
 			break;
-
 	}
 
-	for (i = 0; i < time; i++) {
-		Data = IntData[i];
+	for (count = 0; count < i; count++) {
+		
+		Data = IntData[count];
 		if (Data == 1) {
 			SPop(&stack);
 		}
@@ -77,8 +74,8 @@ int main() {
 		}
 	}
 
-	while (SIsEmpty(&stack))
-		printf("%d ", SPop(&stack));
+	//while (SIsEmpty(&stack))
+	//	printf("%d ", SPop(&stack));
 
 	return 0;
 }
