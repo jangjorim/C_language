@@ -14,8 +14,9 @@ void SInit(Stack* pstack) {			// 초기에 스택을 초기화 하는 함수;
 }
 
 void SPush(Stack* pstack, int Data) {
-	if ((pstack->topIndex += 1) != 10)
-		pstack->stack[pstack->topIndex] = Data;
+	if ((pstack->topIndex += 1) != 10){
+		printf("%d ", (pstack->stack[pstack->topIndex] = Data));
+	}
 	else
 		printf("overflow\n");
 }
@@ -62,10 +63,11 @@ int main() {
 		else
 			break;
 	}
-
+	
 	for (count = 0; count < i; count++) {
 		
 		Data = IntData[count];
+		
 		if (Data == 1) {
 			SPop(&stack);
 		}
