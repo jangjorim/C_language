@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct _stack {
+typedef struct _stack {			// ìŠ¤íƒ êµ¬ì¡°ì²´ ì •ì˜
 	int stack[10];
 	int topIndex;
 	int bottomIndex;
 } Stack;
 
-void SInit(Stack* pstack) {			// ÃÊ±â¿¡ ½ºÅÃÀ» ÃÊ±âÈ­ ÇÏ´Â ÇÔ¼ö;
+void SInit(Stack* pstack) {			// ì´ˆê¸°ì— ìŠ¤íƒì„ ì´ˆê¸°í™” í•˜ëŠ” í•¨ìˆ˜
 	pstack->topIndex = -1;
 	pstack->bottomIndex = 0;
 }
@@ -46,7 +46,7 @@ int main() {
 	int count, i, Data, IntData[10];
 	char Input[4];
 
-	//¸î ¹ø ÀÔ·ÂÀ» ¹ŞÀ» °ÍÀÎÁö
+	//ëª‡ ë²ˆ ì…ë ¥ì„ ë°›ì„ ê²ƒì¸ì§€
 
 	scanf_s("%d", &count);
 
