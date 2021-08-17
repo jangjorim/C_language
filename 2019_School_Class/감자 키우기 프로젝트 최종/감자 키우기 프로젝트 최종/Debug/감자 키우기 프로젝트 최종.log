@@ -1,0 +1,25 @@
+﻿  box.c
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(28): warning C4244: '함수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(131): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: 'getch' 선언을 참조하십시오.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(327): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(327): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 6개 필요하지만 0개가 제공되었습니다.
+  d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(327): note: 누락된 variadic 인수 1이(가) 서식 문자열 '%u'에 필요합니다.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(273): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\box.c(359): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  gameStart.c
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\gamestart.c(21): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  login.c
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\login.c(15): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\login.c(31): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\login.c(57): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  stop.c
+d:\codes\뻐꾸기c\감자 키우기 프로젝트 최종\감자 키우기 프로젝트 최종\stop.c(7): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: 'getch' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
