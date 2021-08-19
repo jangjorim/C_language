@@ -324,7 +324,7 @@ void list()
 				printf("감자의 상태를 확인합니다.");
 				Sleep(1000);
 				system("cls");
-				printf("감자 확인 불가%uAC00%uB2A5....%uC774%uC2A4%uD130%20%uC560%uADF8...\n\n");
+				printf("감자 확인 불가AC00 B2A5.... C774 C2A4 D130%20 C560 ADF8...\n\n");
 				Sleep(1500);
 				printf("....");
 				Sleep(1000);

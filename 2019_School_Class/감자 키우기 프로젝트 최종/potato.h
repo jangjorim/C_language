@@ -4,7 +4,7 @@
 #include <conio.h> 
 #include<mmsystem.h>
 #pragma comment(lib, "winmm.lib")
-
+#pragma warning(disable:4996)
 #define music1 "D:\\Codes\\뻐꾸기c\\프로젝트 2 연구용 1\\프로젝트 2 연구용\\헤네시스 - FloralLife.wav"
 #define music2 "D:\\Codes\\뻐꾸기c\\프로젝트 2 연구용 1\\프로젝트 2 연구용\\Interstellar-First Step.wav"
 
