@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <stdio.h>             // М■└К║°Й╥╦К·╗Л≈░Л└° Л└═Л√╦М∙╢Л∙╪ М∙≤К┼■ Й╣╛К╛╦Л²└ Л·▒Л└╠М∙╢ К▒░Л≈┬К▀╓.
 #include<windows.h>
 #include <stdlib.h>
 #include <conio.h> 
 #include<mmsystem.h>
 #pragma comment(lib, "winmm.lib")
-#pragma warning(disable:4996)
-#define music1 "D:\\Codes\\╩╣╡ы╠Бc\\га╥на╖ф╝ 2 ©╛╠╦©К 1\\га╥на╖ф╝ 2 ©╛╠╦©К\\гЛЁв╫ц╫╨ - FloralLife.wav"
-#define music2 "D:\\Codes\\╩╣╡ы╠Бc\\га╥на╖ф╝ 2 ©╛╠╦©К 1\\га╥на╖ф╝ 2 ©╛╠╦©К\\Interstellar-First Step.wav"
+#pragma warning(disable:4996)            // scanf Л≤╓К╔≤К╛╦Л═° М∙╢Й╡╟
+#define music1 "D:\\Codes\\К╩░Й╬╦Й╦╟c\\М■└К║°Л═²М┼╦ 2 Л≈╟Й╣╛Л ╘ 1\\М■└К║°Л═²М┼╦ 2 Л≈╟Й╣╛Л ╘\\М≈╓К└╓Л▀°Л┼╓ - FloralLife.wav"
+#define music2 "D:\\Codes\\К╩░Й╬╦Й╦╟c\\М■└К║°Л═²М┼╦ 2 Л≈╟Й╣╛Л ╘ 1\\М■└К║°Л═²М┼╦ 2 Л≈╟Й╣╛Л ╘\\Interstellar-First Step.wav"
 
 
 
