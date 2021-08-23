@@ -201,10 +201,10 @@ void list()            // 메뉴 UI를 출력하는 함수 이면서 특정조�
 			else if (w < 168) // 168
 			{
 				system("cls");
-				printf("2.ending: 뿌리가 썩은 감자(사유:물을 너무 많이 주었다.)\n\n");
+				printf("2.ending: 뿌리가 썩은 감자(사유:물을 너무 많이 주었다.)\n\n");			// 설정된 시간 안에 물을 한번더 줄 경우 엔딩 이벤트가 발생한다.
 				printf("GAME OVER\n");
 				Sleep(3000);
-				printf("힌트가 추가 되었다.");
+				printf("힌트가 추가 되었다.");			// 힌트가 추가되고 물, 농약, 감자 갯수등 카운드 값이 초기화 되지만 날짜 는 초기화 되지 않는다. 
 				w = 0;
 				j = 0;
 
@@ -377,7 +377,7 @@ void list()            // 메뉴 UI를 출력하는 함수 이면서 특정조�
 	}
 }
 
-void p_print()//감자 심은것 출력
+void p_print()//감자 심은것 출력하는 함수이다. 감자를 심은 갯수에 따라 화면에 보인느 클로버 갯수가 달라진다.
 {
 
 	if (pcount == 1)
@@ -404,7 +404,7 @@ void p_print()//감자 심은것 출력
 	}
 }
 
-void hint()
+void hint()			// 힌트 함수로 메뉴에서 힌트보기 항목을 누르면 아래 조건문을 검사하고 일치하는 것을 화면에 출력한다.
 {
 	if (ending[0] == 1)
 	{
@@ -444,7 +444,7 @@ void hint()
 }
 
 
-void gotoxy(int x, int y)
+void gotoxy(int x, int y)			// 이 게임에서 화면 UI를 디자인 할 수 있게하는 가장 중요한 함수로 콘솔 화면에 특정 좌표로 출력을 할 수 있게 해준다.
 {
 	COORD Pos = { x - 1 , y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
