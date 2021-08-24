@@ -1,23 +1,23 @@
 #include "potato.h"
 
-void story()
+void story()            // ê²Œìž„ ì—”ë”© ìŠ¤í† ë¦¬
 {
 	system("cls");
-	music_1();
-	printf("½Ã½ºÅÛ Á¾·áÁß....\n\n\n");
+	music_1();      // ê¸°ì¡´ ìŒì•…ì„ ì¢…ë£Œí•˜ê³  ê²Œìž„ ì—”ë”© ìŒì•…ì„ ì‹¤í–‰í•œë‹¤.
+	printf("ì‹œìŠ¤í…œ ì¢…ë£Œì¤‘....\n\n\n");
 	Sleep(13000);
 
-	printf("Áö±¸´Â ÀÇ¹®ÀÇ Àü¿°º´¿¡ ÀÇÇØ ¸ðµç ½Ä¹°ÀÌ ¸»¶óÁ×°Å°Å³ª ¼ºÀåÇÏÁö ¾Ê¾Ò´Ù.\n\n");
+	printf("ì§€êµ¬ëŠ” ì˜ë¬¸ì˜ ì „ì—¼ë³‘ì— ì˜í•´ ëª¨ë“  ì‹ë¬¼ì´ ë§ë¼ì£½ê±°ê±°ë‚˜ ì„±ìž¥í•˜ì§€ ì•Šì•˜ë‹¤.\n\n");
 	Sleep(5000);
-	printf("Àü¼¼°è´Â Àü¿°º´¹é½ÅÀ» ¸¸µé°í ½ÇÇèÇÏ±â À§ÇØ °è¼Ó °¨ÀÚ Àç¹è ½ÇÇèÀ» Çß´Ù.\n\n");
+	printf("ì „ì„¸ê³„ëŠ” ì „ì—¼ë³‘ë°±ì‹ ì„ ë§Œë“¤ê³  ì‹¤í—˜í•˜ê¸° ìœ„í•´ ê³„ì† ê°ìž ìž¬ë°° ì‹¤í—˜ì„ í–ˆë‹¤.\n\n");
 	Sleep(5000);
-	printf("ÇÏÁö¸¸ ³ë·Â¿¡µµ ºÒ±¸ÇÏ°í ÇÁ·ÎÁ§Æ®´Â °è¼Ó ½ÇÆÐÇß´Ù.\n\n");
+	printf("í•˜ì§€ë§Œ ë…¸ë ¥ì—ë„ ë¶ˆêµ¬í•˜ê³  í”„ë¡œì íŠ¸ëŠ” ê³„ì† ì‹¤íŒ¨í–ˆë‹¤.\n\n");
 	Sleep(5000);
-	printf("¸ÅÀÏ ¸ð·¡ÆøÇ³ÀÌ ¸ô¾ÆÄ¡°í ÅÂÇ³°ú ÇØÀÏÀÌ ÀÏ»óÀÌ µÇ¾ú´Ù.\n\n");
+	printf("ë§¤ì¼ ëª¨ëž˜í­í’ì´ ëª°ì•„ì¹˜ê³  íƒœí’ê³¼ í•´ì¼ì´ ì¼ìƒì´ ë˜ì—ˆë‹¤.\n\n");
 	Sleep(5000);
-	printf("½Ã°£ÀÌ Áö³ª¸é¼­ Áö±¸´Â È²ÆóÈ­ µÇ°í Áö±¸´Â ´õÀÌ»ó »ç¶÷ÀÌ »ì ¼ö ¾ø°Ô µÇ¾ú´Ù.\n\n");
+	printf("ì‹œê°„ì´ ì§€ë‚˜ë©´ì„œ ì§€êµ¬ëŠ” í™©íí™” ë˜ê³  ì§€êµ¬ëŠ” ë”ì´ìƒ ì‚¬ëžŒì´ ì‚´ ìˆ˜ ì—†ê²Œ ë˜ì—ˆë‹¤.\n\n");
 	Sleep(5000);
-	printf("ÀÏºÎ »ýÁ¸¼Ò¿¡¼­ »ì¾Æ³²Àº »ç¶÷µéÀº ¼º°øÇÒ ¶§ ±îÁö ÇÁ·ÎÁ§Æ®¸¦ °è¼Ó ½ÇÇà½ÃÄ×´Ù.\n\n");
+	printf("ì¼ë¶€ ìƒì¡´ì†Œì—ì„œ ì‚´ì•„ë‚¨ì€ ì‚¬ëžŒë“¤ì€ ì„±ê³µí•  ë•Œ ê¹Œì§€ í”„ë¡œì íŠ¸ë¥¼ ê³„ì† ì‹¤í–‰ì‹œì¼°ë‹¤.\n\n");
 	Sleep(5000);
 	printf("...\n");
 	Sleep(500);
