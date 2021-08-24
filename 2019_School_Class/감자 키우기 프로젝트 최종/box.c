@@ -19,11 +19,11 @@ int jcount = 0; // 농약 카운트
 
 int box()        // 화면에 출력되는 UI를 작성한 함수
 {
-	for (double i = 0; i < 30; i++)
+	for (double i = 0; i < 30; i++)     // 반복문을 이용하여 게임 화면 틀을 만든다.
 	{
 		printf("■");
 	}
-	for (double i = 1; i < 20; i++)
+	for (double i = 1; i < 20; i+
 	{
 		gotoxy(59.5, i);
 		printf("■");
@@ -57,7 +57,7 @@ int box()        // 화면에 출력되는 UI를 작성한 함수
 	{
 		w++;
 
-		if (w > 192) // 192
+		if (w > 192) // 192    물을 주고나서 일정시간이 지나면 엔딩이 나오고 물,농약,감자갯수 카운트를 초기화 한다.
 		{
 			system("cls");
 			printf("3.ending: 말라 죽은 감자(사유:감자에게 물을 오랜시간동안 안 주었다.)\n\n");
@@ -72,7 +72,7 @@ int box()        // 화면에 출력되는 UI를 작성한 함수
 			jcount = 0;
 
 			Sleep(1000);
-			ending[2] = 1;
+			ending[2] = 1;           // 엔딩 조건 배열에 1을 삽입한다.
 		}
 	}
 
@@ -136,7 +136,7 @@ int time()            // 게임 UI에서 흘러가는 시간을 카운트 하는
 		}
 		//Sleep(1000);
 		i = i + 1;
-		if (i == 25)
+		if (i == 25)            // 1초마다 카운트를 하여 일자를 추가한다.
 		{
 			day = day + 1;
 			i = 1;
@@ -146,7 +146,7 @@ int time()            // 게임 UI에서 흘러가는 시간을 카운트 하는
 			day = 1;
 			month += 1;
 		}
-		if (month == 8)
+		if (month == 8)        // 8월이 되면 시간초과로 엔딩이 뜬다
 		{
 			system("cls");
 			printf("8 월 1 일 1시\n");
